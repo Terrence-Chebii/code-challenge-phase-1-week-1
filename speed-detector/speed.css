@@ -3,17 +3,17 @@
     color: azure;
     text-align: center;
 }
-
+/*style for the heading*/
 h1{
     font-size: 150px;
 }
-
+/*style for the return*/
 h3{
     color: azure;
     font-size: 50px;
     font-style: italic;
 }
-
+/*style for the inpu*/
 #speed{
     display: inline-block;
     width:30%;
@@ -30,7 +30,7 @@ h3{
     border: 5px solid azure;
     transition: .5s;
 }
-
+/*style for the button*/
 #button{
     position: relative;
     top: -6px;

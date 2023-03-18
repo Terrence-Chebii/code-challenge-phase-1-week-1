@@ -2,21 +2,21 @@
     background-color: black;
     color: antiquewhite;
 }
-
+/*style for the body*/
 body{
     text-align: center;
 }
-
+/*style for the head*/
 h1{
     font-size: 100px;
 }
-
+/*style for the return value*/
 h3{
     color: antiquewhite;
     font-size: 40px;
     font-style: italic;
 }
-
+/*style for the button*/
 #button{
     background-color: black;
     color: antiquewhite;
@@ -36,7 +36,7 @@ h3{
     color: black;
     cursor: pointer;
 }
-
+/*style for the input*/
 input{
     border: 2px solid gold;
     border-radius: 30px;
