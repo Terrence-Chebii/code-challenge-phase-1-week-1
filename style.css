@@ -1,0 +1,25 @@
+*{
+    background-color: wheat;
+}
+
+h1{
+    font-size: 100px;
+}
+
+div ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+div ul a {
+    text-decoration: underline;
+    color: black;
+}
+
+div ul li:hover{
+    color: gold;
+    transform: scale(1.2);
+    transition: .4s;
+}
