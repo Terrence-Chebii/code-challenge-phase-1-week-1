@@ -1,0 +1,45 @@
+*{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+body{
+    text-align: center;
+}
+
+h3{
+    color: antiquewhite;
+}
+
+#button{
+    background-color: black;
+    color: antiquewhite;
+    width: 80px;
+    height: 40px;
+    border: 2px solid gold;
+    border-radius: 20px;
+    position: relative;
+    top: -8px;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: .4s;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+}
+
+input{
+    border: 2px solid gold;
+    border-radius: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+input:hover{
+    transform: scale(1.015);
+    transition: .4s;
+    cursor: pointer;
+}
