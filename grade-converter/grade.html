@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link to css-->
     <link rel="stylesheet" href="grade.css">
     <title>Grade Converter</title>
 </head>
 <body>
     <h1>write your marks here to see your grade</h1>
     <div>
-      <input required id="grade" placeholder="marks here">
-      <button onClick="convert()" id = "button">Grade</button>
+      <!--input for writing the grades-->
+      <input required id="grade" placeholder="marks here" onClick="location.reload">
+      <button onClick="Convert()" id = "button">Grade</button>
     <h3 id="gradeShow"></h3>
    </div>
 
+   <!--link to java script-->
     <script src="grade.js"></script>
 </body>
 </html>

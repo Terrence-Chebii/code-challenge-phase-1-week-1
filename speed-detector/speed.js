@@ -1,10 +1,14 @@
 const resultSpeed = document.getElementById(
     "resultSpeed"
 );
-
+//conditions
 function Convert(){
     const pace = parseInt(speed.value);
-    if(pace <= 70){
+    if(pace < 0){
+        score = "The car is in reverse"
+    }else if(pace <= 0){
+        score = "Car is not moving"
+    }else if(pace <= 70){
         score = "OK"
     }else if(pace <= 75){
         score = "-1 merit point";
@@ -33,6 +37,7 @@ function Convert(){
     }else{
         score = "Please fill out correctly";
     }
+    //what to return
     console.log(score)
     resultSpeed.innerText = `${score}`;
 }

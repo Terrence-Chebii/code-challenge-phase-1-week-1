@@ -1,10 +1,9 @@
-const gradeShow = document.getElementById(
-    "gradeShow"
-);
+//
+let gradeShow = document.getElementById("gradeShow");
 
-
-function convert() {
-    const number = parseInt(grade.value);
+// the conitions
+function Convert() {
+    let number = parseInt(grade.value);
     if(number >= 101){
       grade = "Please write the correct marks";
     }else if (number >= 80 ) { 
@@ -15,11 +14,12 @@ function convert() {
       grade =  "Your Grade is C";
     } else if(number >= 40) {
       grade = "Your Grade is D";
-    } else if(number < 40) {
+    } else if(number < 40, number > 0) {
       grade = "Your Grade is E";
-    }else{
+    }else {
       grade = "please fill out your correct marks"
     }
+    //the return value
     console.log(grade)
     gradeShow.innerText = `${grade}`;
 }
