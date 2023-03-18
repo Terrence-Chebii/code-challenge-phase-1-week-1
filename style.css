@@ -11,10 +11,12 @@ div ul{
     justify-content: space-around;
     font-size: 40px;
     text-decoration: none;
+    font-weight: bold;
+    font-style: oblique;
 }
 
 div ul a {
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
 }
 

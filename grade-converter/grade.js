@@ -18,7 +18,7 @@ function convert() {
     } else if(number < 40) {
       grade = "Your Grade is E";
     }else{
-      grade = "please fill out your marks"
+      grade = "please fill out your correct marks"
     }
     console.log(grade)
     gradeShow.innerText = `${grade}`;

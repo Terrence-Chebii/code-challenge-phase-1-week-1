@@ -4,6 +4,16 @@
     text-align: center;
 }
 
+h1{
+    font-size: 150px;
+}
+
+h3{
+    color: azure;
+    font-size: 50px;
+    font-style: italic;
+}
+
 #speed{
     display: inline-block;
     width:30%;
@@ -38,7 +48,3 @@
     transform: scale(1.1);
 }
 
-h3{
-    color: azure;
-    font-size: 50px;
-}
