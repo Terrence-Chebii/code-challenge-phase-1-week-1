@@ -1,9 +1,7 @@
-const resultSpeed = document.getElementById(
-    "resultSpeed"
-);
+let resultSpeed = document.getElementById("resultSpeed");
 //conditions
 function Convert(){
-    const pace = parseInt(speed.value);
+    let pace = parseInt(speed.value);
     if(pace < 0){
         score = "The car is in reverse"
     }else if(pace <= 0){

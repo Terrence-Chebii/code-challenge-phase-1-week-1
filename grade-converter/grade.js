@@ -1,9 +1,9 @@
 //
 let gradeShow = document.getElementById("gradeShow");
-
+ 
 // the conitions
-function Convert() {
-    let number = parseInt(grade.value);
+function Convert(){
+  let number = parseInt(grade.value);
     if(number >= 101){
       grade = "Please write the correct marks";
     }else if (number >= 80 ) { 
