@@ -1,4 +1,3 @@
-let resultSpeed = document.getElementById("resultSpeed");
 //conditions
 function Convert(){
     let pace = parseInt(speed.value);

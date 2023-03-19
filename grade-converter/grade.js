@@ -1,7 +1,4 @@
-//
-let gradeShow = document.getElementById("gradeShow");
- 
-// the conitions
+ // the conitions
 function Convert(){
   let number = parseInt(grade.value);
     if(number >= 101){
