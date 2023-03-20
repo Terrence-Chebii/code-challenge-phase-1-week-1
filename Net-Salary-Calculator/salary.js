@@ -1,5 +1,4 @@
 
-
 function payee(){
     let calc = parseInt(basic.value) + parseInt(benefits.value); 
     if(calc <= 24000){
@@ -77,4 +76,4 @@ function netSalary(){
 
     console.log(net);
     net.innerText = `${net}`
-}
+} 
