@@ -6,10 +6,11 @@ function payee(){
     }else if (calc > 24000 && calc<=32333){
         value = 24000*0.1 + (calc-24000)*0.25;
     }else if(calc > 32333){
-        value =  value = 24000*0.1 + (calc-24000)*0.25 + (calc - 32333)*0.3;
+        value = 24000*0.1 + (calc-24000)*0.25 + (calc - 32333)*0.3;
     }
 
     console.log(value);
+    net.innerText = `Your tax is ${value}`
 }
 
 function nssf(){
@@ -21,6 +22,7 @@ function nssf(){
     }
 
     console.log(withnssf);
+    
 }
 
 function nhif(){
